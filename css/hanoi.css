@@ -1,0 +1,58 @@
+.hanoi {
+    width: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h1 {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    width: 200px;
+    height: 200px;
+    border-bottom: 10px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 0;
+}
+
+ul li{
+    height: 40px;
+    background-color: gray;
+    display: block;
+    margin: 0 auto;
+    border-radius: calc(0.5 * 40px);
+}
+
+.sizeundefined {
+    width: 100%;
+    background-color: transparent;
+}
+
+.size1 {
+    width: 30%;
+}
+
+.size2 {
+    width: 75%;
+}
+
+.size3 {
+    width: 100%;
+}
+
+.from {
+    border-bottom-color: red;
+}
+
+.to {
+    border-bottom-color: blue;
+}
+
+.winner {
+    background-color: green;
+}
